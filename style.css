@@ -1,0 +1,328 @@
+* {
+    vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.page {
+    height: 100vh;
+    background-color: white;
+}
+.display {
+    height: 90vh;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+    background-color: white;
+}
+.container {
+    height: 85vh;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.col-1, .col-2 {
+    height: 85vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: white;
+}
+.col-1 {
+    width: 45vw;
+}
+.col-2 {
+    width: 30vw;
+}
+.usercard {
+    background-color: white;
+    height: 50vh;
+    width: 45vw;
+}
+.education-box {
+    background: white;
+    height: 30vh;
+    width: 45vw;
+}
+.connection-req-box {
+    background-color: white;
+    height: 35vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+}
+.your-connections-box {
+    background-color: white;
+    height: 45vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+
+}
+.navbar {
+    background-color: rgb(72, 72, 72);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav {
+    width: 80vw;
+    background-color: rgb(72, 72, 72);
+    color: whitesmoke;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+}
+.nav a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+.nav-links {
+    width: 40%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-title {
+    margin-left: 10px;
+}
+.btn {
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+    border-radius: 0;
+    border: 2px solid black;
+    color: white;
+    background-color: #2b78e4;
+    box-shadow: 3px 3px black
+}
+.usercard {
+    font-family: 'Roboto', sans-serif;
+
+}
+.profile {
+	border: .2vw solid #14a2b8;
+    box-sizing: border-box;
+	display: flex;
+    background-color: #14a2b8;
+    width: 45vw;
+    height: 13vh;
+}
+.info {
+	border: .2vw solid grey;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+	width: 45vw;
+    height: 35vh;
+}
+.rows {
+	height: 160px;
+	display: flex;
+	padding-top: 70px;
+    padding-left: 20px;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.userimage {
+    width: 120px;
+    height: 120px;
+	position: relative;
+	top: 40px;
+	left: 20px;
+}
+.editprofile, .location {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	width: 100px;
+}
+.marker {
+	width: 15px;
+}
+.gear {
+	width: 20px
+}
+.name {
+	font-weight: 600;
+	font-size: xx-large;
+}
+.usercard a {
+	color: blue;
+}
+.newyork {
+	font-size: large;
+}
+.education {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    color: white;
+    border: .2vw solid #333333;
+    box-sizing: border-box;
+    background-color: #333333;
+    width: 45vw;
+    height: 8vh;
+    font-size: x-large;
+}
+.codingdojo {
+    padding-left: 20px;
+    border: .2vw solid grey;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+	width: 45vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.amount {
+    padding: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: medium;
+    border-radius: 50%;
+    color: black;
+    background-color: lightgrey;
+    width: fit-content;
+    height: 30px;
+}
+.people img {
+    width: 20px;
+}
+.people h1 {
+    font-size: x-large;
+}
+.fullstack {
+    font-size: x-large;
+}
+.time {
+    font-size: larger;
+    color: grey;
+}
+.qualification {
+    font-size: large;
+}
+.education-req {
+    font-size: x-large;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    border: .2vw solid #333333;
+    box-sizing: border-box;
+    background-color: #333333;
+    width: 30vw;
+    height: 8vh;
+}
+.incoming-req {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    border: .2vw solid grey;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+	width: 30vw;
+    height: 20vh;
+}
+
+.req {
+    width: 20vw;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.req-a {
+    display: flex;
+    justify-content: space-between;
+}
+.req-a h1 {
+    padding-left: 20px;
+}
+.accept-deny {
+    display: flex;
+    justify-content: space-between;
+    width: 1vw;
+}
+.accept-deny img {
+    padding-left: 5px;
+}
+.connections img, .req img {
+    width: 35px;
+    border-radius: 50%;
+}
+.your-connections {
+    font-size: x-large;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    border: .2vw solid #333333;
+    box-sizing: border-box;
+    background-color: #333333;
+    width: 30vw;
+    height: 8vh;
+}
+
+.connections {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: x-large;
+    border: .2vw solid grey;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+	width: 30vw;
+    height: 36vh;
+}
+
+.individuals {
+    height: 31vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.connection {
+    padding-left: 20px;
+    width: 15vw;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.others { 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    border-top: .2vw solid grey;
+    background-color: whitesmoke;
+	width: 27.7vw;
+    height: 5vh;
+}
+.connection h1 {
+    width: 10vw;
+}
+.others a {
+    color: blue;
+    font-size: large;
+}
